@@ -2,15 +2,16 @@
   "name": "simple-calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "scripts": {
-    "start": "node main.js",
+    "postinstall": "npm install -g ts-node",
+    "start": "ts-node main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/prompt-sync": "^4.2.0",
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "typescript": "^5.1.6"
   }
 }
