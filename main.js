@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")({ sigint: true });
+
 function addition(a, b) {
   return a + b;
 }
@@ -41,6 +43,7 @@ function calculatrice() {
       resultat = "Opérateur non valide";
   }
 
-  alert("Le résultat est : " + resultat);
+  prompt("Le résultat est : " + resultat);
 }
+
 calculatrice();
