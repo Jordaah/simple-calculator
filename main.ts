@@ -8,7 +8,7 @@ function addition(a: number, b: number) {
   return a + b;
 }
 
-function soustraction(a: number, b: number) {
+function substraction(a: number, b: number) {
   return a - b;
 }
 
@@ -35,7 +35,7 @@ function calculator() {
       result = addition(numberOne, numberTwo);
       break;
     case "-":
-      result = soustraction(numberOne, numberTwo);
+      result = substraction(numberOne, numberTwo);
       break;
     case "*":
       result = multiplication(numberOne, numberTwo);
